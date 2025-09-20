@@ -1,7 +1,7 @@
 # nazwa pliku wejściowego
-input_file = "windows"
+input_file = "my"
 # nazwa pliku wyjściowego
-output_file = "www.txt"
+output_file = "output.txt"
 
 www_entries = []
 
@@ -17,11 +17,9 @@ with open(input_file, "r") as f:
         if len(parts) < 2:
             continue  # pomiń linie bez domeny
         # sprawdzamy każdą domenę w linii
-        for domain in parts[1:]:
-            if domain.startswith("www."):
-                www_entries.append(f"0.0.0.0    {domain}")
-            else:
-                www_entries.append(f"0.0.0.0    www.{domain}")
+        domain = parts[1]
+        www_entries.append(f"0.0.0.0    {domain}")
+        www_entries.append(f"0.0.0.0    www.{domain}")
 
 
 # zapisanie wyników do nowego pliku

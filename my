@@ -1,0 +1,52 @@
+# From Windows
+127.0.0.1	youtube.com
+127.0.0.1	www.youtube.com
+
+127.0.0.1	twitch.tv
+127.0.0.1	www.twitch.tv
+
+127.0.0.1	facebook.com
+127.0.0.1	www.facebook.com
+
+127.0.0.1	ogladajanime.pl
+127.0.0.1   www.ogladajanime.pl
+
+127.0.0.1	shinden.pl
+127.0.0.1   www.shinden.pl
+
+127.0.0.1	lycoris.cafe
+127.0.0.1	www.lycoris.cafe
+
+127.0.0.1	kick.com
+127.0.0.1	www.kick.com
+
+127.0.0.1	reddit.com
+127.0.0.1	www.reddit.com
+
+127.0.0.1	twitter.com
+127.0.0.1	www.twitter.com
+
+127.0.0.1	x.com
+127.0.0.1	www.x.com
+
+127.0.0.1	pinterest.com
+127.0.0.1	www.pinterest.com
+
+# Custom host records are listed here.
+127.0.0.1   youtube.com
+127.0.0.1   www.youtube.com
+127.0.0.1   m.youtube.com
+127.0.0.1   youtu.be
+127.0.0.1   facebook.com
+127.0.0.1   reddit.com
+127.0.0.1   ogladajanime.pl
+127.0.0.1   chomikuj.pl
+127.0.0.1   bankier.pl
+127.0.0.1   biznesradar.pl
+0.0.0.0 x.com
+0.0.0.0 shinden.pl
+0.0.0.0 hianimez.to
+0.0.0.0 hianime.to
+0.0.0.0 datezone.pl
+0.0.0.0 escort.pl
+0.0.0.0 erodate.pl
